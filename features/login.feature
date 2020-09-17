@@ -10,9 +10,9 @@ Feature: Logging in
     Then the login form should be shown
 
   Scenario: User enters wrong password
-    Given a registered user with the email "venky@gmail.com" with password "test123" exists
+    Given a registered user with the email "bearly@gmail.com" with password "test123" exists
     And I am on the "/users/sign_in" page
-    When I fill in "user_email" with "venky@gmail.com"
+    When I fill in "user_email" with "bearly@gmail.com"
     And I fill in "user_password" with "password"
     And I press "Log in"
     Then the login form should be shown
