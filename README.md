@@ -21,10 +21,11 @@ yarn install
 ```
 
 3. Make sure mysql is up and running and verify database settings
+```
     (my mysql credentials and mysql socket path in database.yml file)
       user: root
       password: root
-
+```
 3. Next, run these commands to migrate records and populate the database with seeds.rb:
 ```bash
 bundle exec rails db:create db:migrate db:seed
